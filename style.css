@@ -59,7 +59,7 @@ body {
     color: gray;
 }
 
-.options-container .checkbox-container, a {
+.options-container .checkbox-container, .options-container a {
     display: inline-block;
     width: 50%;
 }
@@ -85,7 +85,7 @@ p {
 
 .social-container {
     width: fit-content;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .social-container .media-container {
@@ -110,4 +110,9 @@ p {
 
 .social-container .media-container:nth-child(3) {
     background: lightseagreen;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
 }
